@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(255, 110, 219);
+}
+
+div {
+    overflow: hidden;
+    width: 260px;
+    height: 150px;
+    display: inline-block;
+    background-color: white;
+}
+
+p {
+    overflow-y: scroll;
+    border-width: 3px 0px;
+    border-style: solid;
+    display: inline-block;
+}

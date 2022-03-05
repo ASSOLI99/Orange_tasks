@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(255, 255, 241);
+}
+
+article {
+    background-color: white;
+    border: 1px solid black;
+    width: 500px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.orange {
+    background-color: rgb(247, 194, 96);
+    font-weight: bolder;
+}
+
+.yellow {
+    background-color: yellow;
+    font-weight: bolder;
+}
+
+.dashed {
+    border: 1px dashed black;
+}
+
+.dashed .dashed1 {
+    border: 1px dashed red;
+}
+
+.purple {
+    color: purple
+}

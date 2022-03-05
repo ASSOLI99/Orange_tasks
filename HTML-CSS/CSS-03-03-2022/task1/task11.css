@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(250, 249, 201);
+}
+
+.div1 {
+    background-color: rgb(204, 204, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 15px;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+}
+
+.div2 {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 400px;
+    margin-left: 24%;
+}
+
+.div3 {
+    float: right;
+    width: 17%;
+    height: 400px;
+    margin-right: 24%;
+    background-color: rgb(228, 228, 228);
+    display: inline-block;
+}

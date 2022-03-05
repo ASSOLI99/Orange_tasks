@@ -1,0 +1,14 @@
+ div {
+     width: 200px;
+     height: 500px;
+     position: fixed;
+     left: 90%;
+     top: 2%;
+     background-image: url(IMG_20210714_161928.jpg);
+     background-repeat: no-repeat;
+     background-position: center center;
+ }
+ 
+ p {
+     font-size: 30px;
+ }
