@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(202, 243, 245);
+    overflow: hidden;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+    background-size: contain;
+    position: relative;
+    transition: 3s;
+    animation: bike 8s linear infinite;
+}
+
+@keyframes bike {
+    0%{
+        left: 110%;
+    }
+    25%{
+        box-shadow: 0px 0px 50px yellow;
+    }
+    50%{
+        left: -50%;
+    }
+    100%{
+        left: 110%;
+    }
+
+}
