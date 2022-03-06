@@ -1,0 +1,39 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    background: linear-gradient(-45deg, #ff5927, #3ceba8, #9a4df1, #23d5ab);
+    animation: bike 5s ease infinite;
+    background-size: 400% 400%;
+    position: relative;
+    border-radius: 50%;
+}
+
+@keyframes bike {
+    0% {
+        background-position: 10% 0%;
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        background-position: 91% 100%;
+        top: 0px;
+        left: 200px;
+    }
+    50% {
+        background-position: 10% 0%;
+        top: 200px;
+        left: 200px;
+    }
+    75% {
+        background-position: 91% 0%;
+        top: 200px;
+        left: 0px;
+    }
+    100% {
+        background-position: 10% 0%;
+        background-position: 10% 0%;
+        top: 0px;
+        left: 0px;
+    }
+}
