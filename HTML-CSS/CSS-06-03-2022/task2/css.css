@@ -1,0 +1,22 @@
+div {
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 50px;
+    margin: 30px;
+    animation: scale 4s linear infinite;
+
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+        background-color: cyan
+    }
+    100% {
+        transform: scale(0);
+    }
+}

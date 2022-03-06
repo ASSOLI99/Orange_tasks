@@ -1,0 +1,19 @@
+div{
+    transition: ease 2s;
+    width: 100px;
+    height: 100px;
+
+}
+.blue{
+    background-color: blue;
+}
+.blue:hover{
+    width: 400px;
+}
+.purple{
+    background-color: purple;
+}
+.purple:hover{
+    width: 300px;
+    height: 300px;
+}

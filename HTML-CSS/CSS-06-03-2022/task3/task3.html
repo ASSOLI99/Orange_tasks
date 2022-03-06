@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hihi</title>
+    <style>
+        *{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+div{
+    width: 91px;
+    height: 300px;
+    background-color: black;
+    margin: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+div p{
+    width: 46px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 24px;
+}
+@keyframes red{
+    
+    33%{
+        background-color: red;
+    }
+    66%{
+        background-color: gray;
+    }
+}
+@keyframes yellow{
+    
+    66%{
+        background-color: yellow;
+    }
+    33%{
+        background-color: gray;
+    }
+}
+@keyframes green{
+    66%{
+        background-color: gray;
+    }
+    90%{
+        background-color: green;
+    }
+   
+}
+
+.red{
+animation: red 3s linear infinite;
+}
+.yellow{
+    animation: yellow 3s linear infinite;
+}
+.green{
+    animation: green 3s linear infinite;
+}
+    </style>
+</head>
+<body>
+<div><p class="red"></p><p class="yellow"></p><p class="green"></p></div>
+</body>
+</html>
