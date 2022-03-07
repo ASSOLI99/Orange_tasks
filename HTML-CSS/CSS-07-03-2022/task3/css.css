@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+p{
+    width: 50%;
+    color: white;
+    font-size: 40px;
+}
+
+.left{
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
