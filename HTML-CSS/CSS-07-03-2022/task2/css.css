@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 98%;
+    border: 12px solid brown;
+    height: auto;
+    flex-wrap: wrap;
+}
+p{
+    width: calc(100%/4);
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    height: 200px;
+}
+.one{
+    background: green;
+}
+.two{
+    background: yellow;
+}
+.three{
+    background: red;
+}
+.four{
+    background: orange;
+}
+.five{
+    background: blue;
+}
+.six{
+    background: black;
+}
+.seven{
+    background: purple;
+}
+.eight{
+    background: yellowgreen;
+}
+.nine{
+background: cadetblue;
+}
+.ten{
+background: rgb(202, 162, 162);
+}
