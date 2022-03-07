@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 20px;
+}
+div{
+    display: grid;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+p{
+    height: 70px;
+}
+.one{
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.two{
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.three{
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.four{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
