@@ -1,0 +1,21 @@
+body {
+    position: relative;
+    top: 200px;
+    margin: 20px;
+}
+
+.table {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+thead {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+tbody {
+    font-size: 20px;
+}

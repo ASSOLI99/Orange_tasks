@@ -1,0 +1,9 @@
+.form-group {
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-weight: bold;
+}
