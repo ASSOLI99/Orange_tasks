@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task5</title>
+  <style>
+    #short,#identical{
+      color: red;
+      display: none;
+    }
+    #submit{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <form action="" onchange="checkPassword()">
+    <label for="pwd">Password (min 6 characters):</label>
+    <input type="password" name="pwd" id="pwd" placeholder=" enter your password">
+    <span id="short">To short!</span>
+    <br><label for="pwdR">Repeat Password:</label>
+    <input type="password" name="pwdR" id="pwdR" placeholder=" repeat your password">
+    <span id="identical">The two passwords don't match!</span>
+    <br><input type="submit" value="Submit" id="submit" disabled>
+  </form>
+  <script src="js.js"></script>
+</body>
+</html>

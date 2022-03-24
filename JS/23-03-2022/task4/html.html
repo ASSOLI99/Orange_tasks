@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task4</title>
+    <style>
+        #main{
+            margin:20px 15% 20px;
+            border: solid;
+            padding: 10px;
+            line-height: 1.4em;
+
+        }
+        .container{
+            display: flex;
+        }
+        form{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+  <div id="container">
+      
+    <select id="selectFontFamily" name="selectFontFamily" onchange="updatefont();">
+        <option> Serif </option>
+        <option> Arial </option>
+        <option> Sans-Serif </option>                                  
+        <option> Tahoma </option>
+        <option> Verdana </option>
+        <option> Lucida Sans Unicode </option>                               
+      </select>
+      <script>document.write(`<select id="selectFontSize" name="selectFontSize" onchange="updatefontSize();" >`)
+        for (i=10 ; i <= 120 ; i++){
+          document.write(`<option> ${i}pt </option>`)
+        }
+        document.write(`</select>`)</script>
+        <form action="" onchange="isChecked()">
+            <label for="italic">Italic</label>
+            <input type="checkbox" name="italic" id="italic">
+            <label for="bold">Bold</label>
+            <input type="checkbox" name="bold" id="bold">
+            <label for="underline">underline</label>
+            <input type="checkbox" name="underline" id="underline">
+        </form>
+  </div>
+  <div id="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ea, sapiente explicabo excepturi nulla, dolor incidunt recusandae in tempore eaque sint voluptate eligendi, consequatur sunt unde vel odit illum hic?</div>
+  <script src="js.js"></script>
+</body>
+</html>
