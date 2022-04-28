@@ -1,6 +1,4 @@
 <?php
-
-// PHP Basic Tasks 
 // Wednesday 27-4-2022     
 // Create new folder “FunctionPHPTask_27-April-2022                                               Duration: 4 Hour            
 // Functions
