@@ -12,11 +12,11 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
 </head>
 <body>
 <form action="connection.php" method="GET">
-    <div>course_id<input type="text" name="course_id"></div>
-    <div>course_name<input type="text" name="course_name"></div>
-    <div>course_lecturer<input type="text" name="course_lecturer"></div>
-    <div>course_duration<input type="text" name="course_duration"></div>
-    <div>course_date<input type="text" name="course_date"></div>
+    <div>fruit_id<input type="text" name="fruit_id"></div>
+    <div>fruit_name<input type="text" name="fruit_name"></div>
+    <div>fruit_color<input type="text" name="fruit_color"></div>
+    <div>fruit_size<input type="text" name="fruit_size"></div>
+    <div>ship_date<input type="text" name="ship_date"></div>
 <input type="submit" name="add" value="ADD">
 <input type="submit" name="delete" value="delete">
 <input type="submit" name="update" value="UPDATE">
@@ -25,23 +25,23 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
 <table class="table">
   <thead class="thead-light">
     <tr>
-      <th scope="col">course_id</th>
-      <th scope="col">course_name</th>
-      <th scope="col">course_lecturer</th>
-      <th scope="col">course_duration</th>
-      <th scope="col">course_date</th>
+      <th scope="col">fruit_id</th>
+      <th scope="col">fruit_name</th>
+      <th scope="col">fruit_color</th>
+      <th scope="col">fruit_size</th>
+      <th scope="col">ship_date</th>
     </tr>
   </thead>
   <tbody>
     <?php
-    $res = mysqli_query($connection,"select * from course");
+    $res = mysqli_query($connection,"select * from fruit");
     while($row = mysqli_fetch_array($res)){
         echo "<tr>";
-        echo "<td>";echo $row["course_id"]; echo "</td>";
-        echo "<td>";echo $row["course_name"]; echo "</td>";
-        echo "<td>";echo $row["course_lecturer"]; echo "</td>";
-        echo "<td>";echo $row["course_duration"]; echo "</td>";
-        echo "<td>";echo $row["course_date"]; echo "</td>";
+        echo "<td>";echo $row["fruit_id"]; echo "</td>";
+        echo "<td>";echo $row["fruit_name"]; echo "</td>";
+        echo "<td>";echo $row["fruit_color"]; echo "</td>";
+        echo "<td>";echo $row["fruit_size"]; echo "</td>";
+        echo "<td>";echo $row["ship_date"]; echo "</td>";
         echo "</tr>";
     }
     ?>

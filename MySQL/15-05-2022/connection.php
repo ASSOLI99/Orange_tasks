@@ -1,14 +1,14 @@
 <?php
 error_reporting(E_ERROR | E_PARSE);
-$connection = mysqli_connect('localhost','root','','courses');
+$connection = mysqli_connect('localhost','root','','fruit');
 if(mysqli_connect_errno()){
     die("Sorry the database does not connected");
 }
-$courseid = $_GET['course_id'];
-$course_name = $_GET['course_name'];
-$course_lecturer = $_GET['course_lecturer'];
-$course_duration = $_GET['course_duration'];
-$course_date = $_GET['course_date'];
+$courseid = $_GET['fruit_id'];
+$course_name = $_GET['fruit_name'];
+$course_lecturer = $_GET['fruit_color'];
+$course_duration = $_GET['fruit_size'];
+$course_date = $_GET['ship_date'];
 if(isset($_GET['add'])){
 $insertdata = "INSERT INTO course (course_id,course_name,course_lecturer,course_duration,course_date) 
                VALUES ('$courseid','$course_name','$course_lecturer','$course_duration','$course_date')";
